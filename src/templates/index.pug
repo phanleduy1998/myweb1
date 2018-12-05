@@ -1,0 +1,116 @@
+extends _layout/layout
+
+//- Các giá trị mặc định cho trang web
+block variables
+	- var title = 'Home'
+	- var description = 'Description for home page'
+	- var bodyclass = 'home'
+
+//- Phần khai báo body
+block body
+	//- Bạn viết code vào đây nhớ là phải mở đầu bằng section ở mỗi khối
+	section.home-slider
+		.container
+			.row.duy.mr-0
+				.col-sm-10.mx-auto.text-center.mt-5
+					figcaption
+						h1 
+							strong YOUR FAVORITE SOURCE OF FREE BOOTSTRAP THEMES
+						hr
+			.row
+				.col-sm-8.mx-auto.text-center
+					figcaption
+						p.mb-5 Start Bootstrap can help you build better websites using the Bootstrap CSS framework! Just download your template and start going, no strings attached!
+						a.btn FIND OUT MORE
+
+	section.home-news
+		.container
+			.row
+				.col-sm-8.mx-auto.text-center
+					figcaption
+						h2 We've got what you need!
+						hr
+						p.mb-5 Start Bootstrap has everything you need to get your new website up and running in no time! All of the templates and themes on Start Bootstrap are open source, free to download, and easy to use. No strings attached!
+						a.btn get started!
+	section.home-clients
+		.container
+			.row 
+				.col-sm-12.text-center
+					figcaption
+						h2 At Your Service
+						hr
+			.row
+				.col-sm-6.col-lg-3
+					.box.text-center
+						i.fa.fa-facebook.mb-3
+						h3.mb-3 Sturdy Templates
+						p Our templates are updated regularly so they don't break.
+				.col-sm-6.col-lg-3
+					.box.text-center
+						i.fa.fa-twitter.mb-3
+						h3.mb-3 Sturdy Templates
+						p Our templates are updated regularly so they don't break.
+				.col-sm-6.col-lg-3
+					.box.text-center
+						i.fa.fa-github.mb-3
+						h3.mb-3 Sturdy Templates
+						p Our templates are updated regularly so they don't break.
+				.col-sm-6.col-lg-3
+					.box.text-center
+						i.fa.fa-instagram.mb-3
+						h3.mb-3 Sturdy Templates
+						p Our templates are updated regularly so they don't break.
+	section.home-clients2
+		.container-fluid.p-0
+			.row
+				.col-sm-6.col-lg-4.p-0
+					figure 
+						img.img-fluid(src="./img/1.jpg", alt="") 
+						.infor
+							figcaption
+								p CATEGORY 
+								h1 Project
+				.col-sm-6.col-lg-4.p-0
+					figure 
+						img.img-fluid(src="./img/2.jpg", alt="")
+						.infor
+							figcaption
+								p CATEGORY 
+								h1 Project
+				.col-sm-6.col-lg-4.p-0
+					figure 
+						img.img-fluid(src="./img/3.jpg", alt="")
+						.infor
+							figcaption
+								p CATEGORY 
+								h1 Project
+				.col-sm-6.col-lg-4.p-0
+					figure 
+						img.img-fluid(src="./img/4.jpg", alt="")
+						.infor
+							figcaption
+								p CATEGORY 
+								h1 Project
+				.col-sm-6.col-lg-4.p-0
+					figure 
+						img.img-fluid(src="./img/5.jpg", alt="")
+						.infor
+							figcaption
+								p CATEGORY 
+								h1 Project
+				.col-sm-6.col-lg-4.p-0
+					figure 
+						img.img-fluid(src="./img/6.jpg", alt="")
+						.infor
+							figcaption
+								p CATEGORY 
+								h1 Projec
+	.home-clients3
+		.container
+			.row
+				.col-sm-12.text-center
+					.infor
+						figcaption
+							p Free Download at Start Bootstrap!
+								h3 Download
+
